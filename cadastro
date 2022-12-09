@@ -1,0 +1,31 @@
+//Algoritimo feito durante a aula online.
+var listaDePecas = ["Cabeçote", "Pistão", "filtro de combustivel"]
+let peso = 50
+let nome = "zeus"
+
+if (peso < 100){
+    console.log("A peça não pode ser cadastrada, pois excede o peso ideal.")
+}
+else {
+    console.log("A peça foi cadastrada, o peso está ideal.")
+}
+
+
+if (listaDePecas.length < 6){
+    
+    console.log("É possivel cadastrar mais peças no sistema.")
+
+} else {
+    
+    console.log("Sistema cheio, não sera possivel cadastrar novos itens.")
+}
+
+
+if (nome.length < 4){
+
+    console.log("Não foi possivel cadastrar a peça, seu nome não cumpre as regras estabelecidas.")
+
+} else{
+    
+    console.log("Nome Cadastrado com sucesso.")
+}
